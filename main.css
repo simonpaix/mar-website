@@ -38,8 +38,9 @@ a {
   font-size: 1.3rem;
   font-family: "Helvetica Neue";
 }
-a:hover {
-  color: white;
+
+.nav-link{
+  color: white !important;
 }
 
 .nav-item:after {
