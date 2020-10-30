@@ -25,7 +25,7 @@ p.about-text,
   font-family: "Helvetica Neue";
   padding-top: 1rem;
   color: #404040;
-  line-height: 30px;
+  line-height: 40px;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -76,6 +76,9 @@ nav {
 @media only screen and (min-width: 1258px) {
 .container {
   width: 60%;
+}
+.contact-form{
+  width: 50%;
 }
 }
 
@@ -141,7 +144,6 @@ nav {
 
 .contact-form {
   margin-top: 3rem;
-  width: 50%;
   align-self: center;
 }
 
@@ -157,6 +159,14 @@ nav {
   margin-right: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .services-img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  }
 }
 
 .darkhighlight{
